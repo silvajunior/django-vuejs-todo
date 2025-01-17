@@ -22,3 +22,15 @@ Run server.
 ```python
 python manage.py runserver
 ```
+O another terminal tab.
+```bash
+cd ../frontend
+```
+Install dependences.
+```node
+npm install
+```
+Run server
+```node
+npm run serve
+```
