@@ -1,6 +1,7 @@
 # TodoList Django Vuejs
 ![](https://raw.githubusercontent.com/silvajunior/django-vuejs-todo/refs/heads/main/django_vuejs_tailwind_css.jpg)
 TodoList with Django, Vuejs and Tailwind CSS.
+![](https://raw.githubusercontent.com/silvajunior/django-vuejs-todo/refs/heads/main/screenshot.png)
 
 Go to backend.
 ```bash
