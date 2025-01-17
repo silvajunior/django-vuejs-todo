@@ -1,5 +1,5 @@
 # TodoList Django Vuejs
-ToDoList with Django, DRF, Vuejs and Tailwind CSS.
+ToDoList with Django, Vuejs, DRF and Tailwind CSS.
 
 ![](https://raw.githubusercontent.com/silvajunior/django-vuejs-todo/refs/heads/main/django_vuejs_drf_tailwind_css.webp)
 
