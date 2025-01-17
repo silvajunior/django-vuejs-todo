@@ -1,6 +1,6 @@
 # TodoList Django Vuejs
 ![](https://raw.githubusercontent.com/silvajunior/django-vuejs-todo/refs/heads/main/django_vuejs.webp)
-TodoList with Django and Vuejs.
+TodoList with Django, Vuejs and Tailwind CSS.
 
 Go to backend.
 ```bash
