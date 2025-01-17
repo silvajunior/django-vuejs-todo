@@ -4,7 +4,15 @@ TodoList with Django, Vuejs and Tailwind CSS.
 ![](https://raw.githubusercontent.com/silvajunior/django-vuejs-todo/refs/heads/main/django_vuejs_drf_tailwind_css.webp)
 
 Screenshot:
-![](https://raw.githubusercontent.com/silvajunior/django-vuejs-todo/refs/heads/main/screenshot.png)
+
+[![Video ToDoList Django+Vuejs](https://raw.githubusercontent.com/silvajunior/django-vuejs-todo/refs/heads/main/screenshot.png)](https://www.youtube.com/watch?v=P_VWtBwdvm4)
+
+
+Video:
+
+
+[![Video ToDoList Django+Vuejs](https://img.youtube.com/vi/P_VWtBwdvm4/0.jpg)](https://www.youtube.com/watch?v=P_VWtBwdvm4)
+
 
 Go to backend.
 ```bash
