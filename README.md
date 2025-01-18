@@ -29,6 +29,11 @@ O another terminal tab Go to frontend.
 ```bash
 cd ../frontend
 ```
+Install Vuejs.
+```node
+npm install -g @vue/cli
+```
+
 Install dependences.
 ```node
 npm install
