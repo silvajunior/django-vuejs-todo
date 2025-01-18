@@ -29,7 +29,7 @@ O another terminal tab Go to frontend.
 ```bash
 cd ../frontend
 ```
-Install Vuejs.
+If not Install Vuejs, install Vuejs.
 ```node
 npm install -g @vue/cli
 ```
