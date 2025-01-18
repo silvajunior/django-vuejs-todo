@@ -12,12 +12,9 @@ Clone project and Go to backend.
 git clone https://github.com/silvajunior/django-vuejs-todo.git
 cd django-vuejs-todo/backend
 ```
-Create virtual env.
+Create virtual env and Activate virtual env.
 ```python
 python3 -m venv venv
-```
-Activate virtual env.
-```python
 . venv/bin/activate
 ```
 Install requirements.
@@ -28,7 +25,7 @@ Run server.
 ```python
 python manage.py runserver
 ```
-O another terminal tab.
+O another terminal tab Go to frontend.
 ```bash
 cd ../frontend
 ```
