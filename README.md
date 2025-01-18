@@ -7,9 +7,10 @@ Screenshot and YouTube Video:
 
 [![Video ToDoList Django+Vuejs](https://raw.githubusercontent.com/silvajunior/django-vuejs-todo/refs/heads/main/screenshot.png)](https://www.youtube.com/watch?v=P_VWtBwdvm4)
 
-Go to backend.
+Clone project and Go to backend.
 ```bash
-cd backend
+git clone https://github.com/silvajunior/django-vuejs-todo.git
+cd django-vuejs-todo/backend
 ```
 Create virtual env.
 ```python
