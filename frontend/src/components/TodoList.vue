@@ -14,7 +14,9 @@
         type="submit"
         class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition"
       >
-        Adicionar
+      <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4.243a1 1 0 1 0-2 0V11H7.757a1 1 0 1 0 0 2H11v3.243a1 1 0 1 0 2 0V13h3.243a1 1 0 1 0 0-2H13V7.757Z" clip-rule="evenodd"/>
+</svg>
       </button>
     </form>
 
@@ -37,14 +39,37 @@
             @click="deleteTodo(todo.id)"
             class="bg-red-500 hover:bg-red-600 text-white py-1 px-3 rounded-lg transition"
           >
-            Remover
+          <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm5.757-1a1 1 0 1 0 0 2h8.486a1 1 0 1 0 0-2H7.757Z" clip-rule="evenodd"/>
+</svg>
+
           </button>
           <button
-            @click="toggleComplete(todo)"
-            class="bg-green-500 hover:bg-green-600 text-white py-1 px-3 rounded-lg transition"
-          >
-            {{ todo.completed ? "Desfazer" : "Completar" }}
-          </button>
+  @click="toggleComplete(todo)"
+  class="bg-green-500 hover:bg-green-600 text-white py-1 px-3 rounded-lg transition"
+>
+  <!-- Mostrar ícone de "Completar" -->
+  <span v-if="!todo.completed">
+<svg class="w-6 h-6 text-gray-800 dark:text-white inline" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+  <rect width="20" height="20" x="2" y="2" rx="3" ry="3"></rect>
+  </svg>
+  </span>
+  
+  <!-- Mostrar ícone de "Desfazer" e texto -->
+  <span v-else>
+    <svg class="w-6 h-6 text-gray-800 dark:text-white inline" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M9 11.293l-3.293-3.293a1 1 0 1 1 1.414-1.414l2.293 2.293 4.293-4.293a1 1 0 1 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0z" clip-rule="evenodd"/>
+  <rect width="20" height="20" x="2" y="2" rx="3" ry="3" fill="none" stroke="currentColor" stroke-width="2"></rect>
+</svg>
+
+  </span>
+  
+  <!-- Mostrar texto "Completar" ou "Desfazer" 
+  {{ todo.completed ? "Do it" : "Done" }} 
+  -->
+  
+</button>
+
         </div>
       </li>
     </ul>
